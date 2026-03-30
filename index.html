@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Magical Birthday Wish for Aditi!</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Fredoka+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="bg-pink-50">
+
+    <div id="page1" class="page visible from-rose-100 to-red-100 bg-gradient-to-br p-4">
+        <h1 class="font-pacifico text-rose-500 text-5xl md:text-7xl drop-shadow-md mb-4">A Special Message</h1>
+        <p class="font-fredoka text-white text-3xl md:text-5xl drop-shadow-md mb-12">For You</p>
+        <button id="startButton" class="text-3xl md:text-4xl font-fredoka text-rose-600 p-6 rounded-full bg-white shadow-xl animate-float">
+            Click to Reveal
+        </button>
+    </div>
+
+    <div id="page2" class="page from-purple-100 to-indigo-200 bg-gradient-to-br p-4">
+        <h2 class="font-fredoka text-5xl md:text-7xl text-purple-600 drop-shadow-md mb-8">Make a Wish...</h2>
+        <div class="cake">
+            <div class="absolute bottom-0 left-0 w-full h-[120px] bg-pink-300 rounded-t-xl"></div>
+            <div class="absolute bottom-0 left-0 w-full h-[70px] bg-pink-400"></div>
+            <div class="absolute bottom-0 left-0 w-full h-[20px] bg-red-400 rounded-b-xl"></div>
+            <div class="absolute top-[30px] left-[10%] w-[20px] h-[25px] bg-white rounded-full"></div>
+            <div class="absolute top-[30px] left-[40%] w-[30px] h-[40px] bg-white rounded-full"></div>
+            <div class="absolute top-[30px] left-[75%] w-[25px] h-[30px] bg-white rounded-full"></div>
+            <div class="candle" style="left: 20%;"><div class="flame"></div></div>
+            <div class="candle" style="left: 48%;"><div class="flame"></div></div>
+            <div class="candle" style="left: 75%;"><div class="flame"></div></div>
+        </div>
+        <button id="wishButton" class="mt-12 text-2xl font-fredoka text-white bg-purple-500 px-8 py-4 rounded-full shadow-lg">
+            Blow out the candles!
+        </button>
+    </div>
+
+    <div id="page3" class="page from-sky-100 to-cyan-200 bg-gradient-to-br p-4">
+        <div class="confetti-container" id="confettiContainer"></div>
+        <h1 class="font-pacifico text-sky-600 text-5xl md:text-8xl drop-shadow-lg">Happy Birthday</h1>
+        <p class="text-xl md:text-2xl text-gray-700 mt-6 max-w-2xl">
+            May your life be filled with incredible adventures, endless laughter, and amazing memories.
+            You deserve all the happiness in the world!
+        </p>
+    </div>
+
+    <audio id="birthdaySong" src="https://cdn.pixabay.com/download/audio/2022/08/17/audio_34bcf8e515.mp3" loop></audio>
+    <button id="music-toggle">🔇</button>
+
+    <script src="Card.js"></script>
+</body>
+</html>

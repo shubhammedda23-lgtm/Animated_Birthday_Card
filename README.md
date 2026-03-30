@@ -12,7 +12,7 @@ Specially made for **Aditi**! 🎉
 
 ## 🚀 Live Demo
 You can view the live birthday card here: 
-👉 **[Insert your GitHub Pages link here once deployed, e.g., https://your-username.github.io/animated-birthday-card]**
+👉 **[Insert your GitHub Pages link here once deployed, e.g., https://github.com/shubhammedda23-lgtm/Animated_Birthday_Card]**
 
 ## 🛠️ Technologies Used
 * **HTML5** (Structure)

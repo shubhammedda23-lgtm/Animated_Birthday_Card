@@ -10,10 +10,6 @@ Specially made for **Aditi**! 🎉
 * **Celebration Mode:** Triggers a shower of colorful confetti and plays a birthday tune!
 * **Responsive Design:** Styled using Tailwind CSS to look great on both desktop and mobile devices.
 
-## 🚀 Live Demo
-You can view the live birthday card here: 
-👉 https://github.com/shubhammedda23-lgtm/Animated_Birthday_Card
-
 ## 🛠️ Technologies Used
 * **HTML5** (Structure)
 * **Tailwind CSS** via CDN (Styling)
